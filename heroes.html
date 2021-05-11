@@ -24,7 +24,9 @@
         const header = document.querySelector('header');
         const section = document.querySelector('section');
         var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+
         // const data = require('./employees.json');
+
         var request = new XMLHttpRequest();
         request.open('GET', requestURL);
         request.responseType = 'json';
